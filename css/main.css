@@ -5,23 +5,31 @@
 @viewport { width: device-width; scale: 1; }
 
 
+.img-flex{
+  width: 100%
+}
+
 @media only screen and (min-width: 25em) {
 
   .row {
     width: 100%;
-  }
-
-  .img-flex:nth-child(1),
-  .img-flex:nth-child(4) {
-    display: block;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
 .row {
- display:flex;
+  display:flex;
 }
+
+.img-flex:nth-child(1){
+  display: none;
+  }
 }
 
 @media only screen and (min-width: 90em) {
+
+.row {
+display: flex;
+  }
+}
