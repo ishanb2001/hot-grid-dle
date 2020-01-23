@@ -1,7 +1,25 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 .column {
   flex: 33.33%;
 }
 
-.row{
+.row {
   display: flex;
+}
+
+.first{
+  position: absolute;
+}
+
+.middle{
+  position: absolute;
+}
+
+.last{
+  position: absolute;
 }
